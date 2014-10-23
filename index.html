@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Happy Halloween</title>
     <meta name="description" content="A page for WDI to celebrate Halloween.">
     <meta name="author" content="Nathan Brown">
@@ -18,13 +19,28 @@ src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     </script>
   </head>
   <body>
-    <section id="wrapper">
-      <h1>Happy<br>Halloween</h1>
+    <div class="parallax">
+      <div id="group1" class="parallax_group">
+        <div class="parallax_layer parallax_layer--back">
+          <img id="window" src="images/halloween.png">
+        </div>
+        <div class="parallax_layer parallax_layer--base">
+          <h1>Happy<br>Halloween</h1>
+        </div>
+      </div>
+    </div>
+    <div id="poem">
+      <h2>Trick or Treat</h2>
+      <p>The ghost is a torn sheet,<br>the skeleton&rsquo;s suit came from a
+      rack in the store<br>the witch is flameproof, but who knows<br>what
+      dark streets they have taken here?<br>Brother Death, here is a candy
+      bar.<br>For the lady wearing the hat from Salem: gum.<br>And a penny
+      for each eye, Lost Soul.<br>They fade away with their heavy
+      sacks.<br>Thanks! I yell just is time.<br>Thanks for another year!</p>
+      <p>Nancy Price</p>
       <div id="scroll">
         <img id="scroll-btn" src="images/pumpkin.png">
       </div>
-    </section>
-    <section>
-    </section>
+    </div>
   </body>
 </html>
