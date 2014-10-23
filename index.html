@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Halloween</title>
+    <meta name="description" content="A page for WDI to celebrate Halloween.">
+    <meta name="author" content="Nathan Brown">
+    <meta name="keywords" content="Halloween, fun">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script
+src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("h1").on('click', function() {
+          $("h1").fadeIn(5000).css( "color", "#E32636" );
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <section id="wrapper">
+      <h1>Happy<br>Halloween</h1>
+      <div id="scroll">
+        <img id="scroll-btn" src="images/pumpkin.png">
+      </div>
+    </section>
+    <section>
+    </section>
+  </body>
+</html>

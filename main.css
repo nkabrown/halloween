@@ -1,0 +1,31 @@
+body {
+  background-color: #000;
+  min-height: 1536px;
+}
+
+#wrapper {
+  min-height: 768px;
+  background-image: url("images/halloween.png");
+  background-position: 80% 65%;
+}
+
+h1 {
+  font-family: "Big Caslon", sans-serif;
+  color: rgba(255, 255, 255, .6);
+  font-size: 16em;
+  text-align: center;
+  margin-top: 0;
+}
+
+#scroll-btn {
+  margin-bottom: 70px;
+  margin-left: 600px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #FFF;
+}
+
+#poem-wrapper {
+  min-height: 768px;
+  background-color: #000;
+}
