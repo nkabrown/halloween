@@ -5,62 +5,62 @@ body {
   background-color: #000;
 }
 
-.parallax {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 300px;
-  perspective: 300px;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.parallax_group {
-  position: relative;
-  height: 100vh;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+section.module:last-child {
+  margin-bottom: 0;
 }
 
-.parallax_layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "PT Serif", sans-serif;
+  font-size: 1.999em;
 }
 
-.parallax_layer--base {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  z-index: 1;
+section.module p {
+  margin-bottom: 40px;
+  font-size: 1em;
 }
 
-.parallax_layer--back {
- /* background-image: url("images/halloween.png");
-  background-position: 50% 75%;*/
-  -webkit-transform: translateZ(-300px) scale(1.5);
-  transform: translateZ(-300px) scale(1.5);
-  z-index: 2;
+section.module p:last-child {
+  margin-bottom: 0;
 }
 
-#group1 {
-  z-index: 1;
+section.module.content {
+  padding: 40px 0;
 }
 
-h1 {
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
   text-rendering: optimizeLegibility;
   font-family: "Bebas Neue", sans-serif;
   color: rgba(255, 255, 255, .6);
   font-size: 7.993em;
+  line-height: 600px;
   text-align: center;
-  margin-top: .5em;
 }
 
-#scroll-btn {
-  margin-bottom: 170px;
-  margin-left: 50%;
-  margin-top: 25px;
-  height: 100px;
-  width: 100px;
+section.module.parallax-1 {
+  background-image: url("images/halloween.png");
+}
+
+section.module.parallax-2 {
+  background-image: url("images/halloween.png");
+}
+
+#pumpkin {
+  height: 500px;
+  width: 500px;
 }
 
 #poem {
