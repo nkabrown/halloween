@@ -5,7 +5,7 @@ body {
 
 .chart-container {
   margin-left: -125px;
-  margin-top: -450px;
+  margin-top: -375px;
 }
 
 .svg {
@@ -15,7 +15,7 @@ body {
 .container {
   position: absolute;
   top: 0px;
-  left: 75px;
+  left: 50px;
 }
 
 .block {
@@ -23,4 +23,10 @@ body {
   width: 228px;
   height: 200px;
   z-index: 1;
+}
+
+h1 {
+  font-family: 'Futura', sans-serif;
+  color: grey;
+  text-align: center;
 }

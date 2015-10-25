@@ -42,7 +42,7 @@ function createPlayer(playerInfo) {
 
 function onPlayerReady(event) {
   event.target.playVideo();
-  //event.target.mute();
+  event.target.mute();
 }
 
 function onPlayerStateChange(event) {
