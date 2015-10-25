@@ -5,5 +5,22 @@ body {
 
 .chart-container {
   margin-left: -125px;
-  margin-top: -150px;
+  margin-top: -450px;
+}
+
+.svg {
+  z-index: 0;
+}
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 75px;
+}
+
+.block {
+  display: inline-block;
+  width: 228px;
+  height: 200px;
+  z-index: 1;
 }
