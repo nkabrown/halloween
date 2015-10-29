@@ -17,7 +17,6 @@ videos.forEach(function(d) {
   playerInfo.push(playerInfoObj);
   return playerInfo;
 });
-console.log(playerInfo);
 
 function onYouTubeIframeAPIReady() {
   if (typeof playerInfo == 'undefined')
