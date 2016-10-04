@@ -32,7 +32,7 @@ p {
   text-align: center;
 }
 
-@media all and (max-width: 1200px) {
+/*@media all and (max-width: 1200px) {
   .mobile-remove {
     width: 200px;
     height: 0;
@@ -41,12 +41,13 @@ p {
   p {
     text-align: center;
   }
-}
+}*/
 
 @media all and (max-width: 1000px) {
 
   .container {
     .max-width: 1000px;
+    margin: 0 auto;
   }
 
   .block {
@@ -71,17 +72,12 @@ p {
   }
 }
 
-@media all and (max-width: 600px) {
-
-  .container {
-    .max-width: 600px;
-  }
-
-  .row {
-    max-width: 230px;
-  }
+/*@media all and (max-width: 600px) {
 
   .block {
+    display: block
+    float: left
+    width: 80vh;
     margin-left: 100px;
   }
 
@@ -97,4 +93,4 @@ p {
   p {
     text-align: center;
   }
-}
+}*/
