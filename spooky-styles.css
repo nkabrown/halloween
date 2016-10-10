@@ -1,0 +1,29 @@
+/*
+ * HALLOWEEN COLOR PALETTE
+ *
+ * #ff6b01 - pumpkin orange
+ * #50342a - russet brown
+ * #d23a04 - rusted red
+ * #f8d97e - maize
+ * #fca929 - candy corn orange
+ * #f7e086 - clotted cream
+ * #a36832 - warm brown
+ *
+ */
+html {
+  font-family: "Futura";
+  font-weight: 900;
+}
+
+.subtext {
+  font-family: "American Typewriter";
+}
+
+.capital {
+  position: absolute;
+  top: -125px;
+  left: 0;
+  font-size: 50em;
+  color: #fca929;
+  margin: 0;
+}
